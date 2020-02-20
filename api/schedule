@@ -1,0 +1,188 @@
+{
+  "dayOne": [
+    {
+      "time": "7:00 am",
+      "title": "Registration"
+    },
+    {
+      "time": "7:30 am",
+      "title": "Breakfast"
+    },
+    {
+      "time": "9:00 am",
+      "title": "",
+      "speaker": "",
+      "description": ""
+    },
+    {
+      "time": "9:30 am",
+      "title": "",
+      "speaker": "",
+      "description": ""
+    },
+    {
+      "time": "10:00 am",
+      "title": "Break"
+    },
+    {
+      "time": "10:30 am",
+      "title": "",
+      "speaker": "",
+      "description": ""
+    },
+    {
+      "time": "11:00 am",
+      "title": "",
+      "speaker": "",
+      "description": ""
+    },
+    {
+      "time": "11:30 am",
+      "title": "",
+      "speaker": "",
+      "description": ""
+    },
+    {
+      "time": "12:00 pm",
+      "title": "Lunch"
+    },
+    {
+      "time": "2:00 pm",
+      "title": "",
+      "speaker": "",
+      "description": ""
+    },
+    {
+      "time": "2:30 pm",
+      "title": "",
+      "speaker": "",
+      "description": ""
+    },
+    {
+      "time": "3:00 pm",
+      "title": "Break"
+    },
+    {
+      "time": "3:30 pm",
+      "title": "",
+      "speaker": "",
+      "description": ""
+    },
+    {
+      "time": "4:00 pm",
+      "title": "",
+      "speaker": "",
+      "description": ""
+    },
+    {
+      "time": "4:30 pm",
+      "title": "",
+      "speaker": "",
+      "description": ""
+    },
+    {
+      "time": "5:00 pm",
+      "title": "",
+      "speaker": "",
+      "description": ""
+    },
+
+    {
+      "time": "6:00 pm",
+      "title": "Dinner",
+      "description": "Meet up with conference attendees sharing similar taste in cuisine at pre-arranged restaurants for dinner (self pay)."
+    },
+    {
+      "time": "8:00 pm",
+      "title": "Party",
+      "description": "Meet at Sheraton Ballroom for milkshakes and board games or Zion (where breakfast is served) for karaoke."
+    }
+  ],
+  "dayTwo": [
+    {
+      "time": "7:30 am",
+      "title": "Breakfast"
+    },
+    {
+      "time": "8:00 am",
+      "title": "Registration"
+    },
+    {
+      "time": "9:00 am",
+      "title": "",
+      "speaker": "",
+      "description": ""
+    },
+    {
+      "time": "9:30 am",
+      "title": "",
+      "speaker": "",
+      "description": ""
+    },
+    {
+      "time": "10:00 am",
+      "title": "Break"
+    },
+    {
+      "time": "10:30 am",
+      "title": "",
+      "speaker": "",
+      "description": ""
+    },
+    {
+      "time": "11:00 am",
+      "title": "",
+      "speaker": "",
+      "description": ""
+    },
+    {
+      "time": "11:30 am",
+      "title": "",
+      "speaker": "",
+      "description": ""
+    },
+    {
+      "time": "12:00 pm",
+      "title": "Lunch"
+    },
+    {
+      "time": "2:00 pm",
+      "title": "",
+      "speaker": "",
+      "description": ""
+    },
+    {
+      "time": "2:30 pm",
+      "title": "",
+      "speaker": "",
+      "description": ""
+    },
+    {
+      "time": "3:00 pm",
+      "title": "Break"
+    },
+    {
+      "time": "4:00 pm",
+      "title": "",
+      "speaker": "",
+      "description": ""
+    },
+    {
+      "time": "4:30 pm",
+      "title": "",
+      "speaker": "",
+      "description": ""
+    },
+    {
+      "time": "5:00 pm",
+      "title": "",
+      "speaker": "",
+      "description": ""
+    },
+    {
+      "time": "6:30 pm",
+      "title": "Party",
+      "description": "Meet at the Gateway for dinner, dessert, live music, and lawn games."
+    }
+  ]
+}
