@@ -8,7 +8,7 @@ constants.Links = {
   TICKET_SALES: 'https://ti.to/trace-events/react-rally-2020',
   PROPOSAL_FORM: 'http://speak.reactrally.com/events/react-rally-2020',
   HOTEL_RESERVATION:
-    'https://www.marriott.com/event-reservations/reservation-link.mi?id=1551475617694&key=GRP&app=resvlink',
+    'https://www.marriott.com/event-reservations/reservation-link.mi?id=1571178610356&key=GRP&app=resvlink',
   VENUE_DIRECTIONS: 'https://goo.gl/maps/V1kpixDA8DF2',
   PARTY_DIRECTIONS: 'https://goo.gl/maps/AeYKJrkAFZG2',
   LIVE_STREAM_PLACEHOLDER: 'https://www.youtube.com/embed/5NNOrp_83RU',
