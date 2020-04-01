@@ -40,6 +40,7 @@ export default () => {
         </section>
       ) : null}
 
+    {/*
       <section>
         <h2>Upcoming Dates</h2>
         <UpcomingDate
@@ -72,6 +73,7 @@ export default () => {
           })}
         </section>
       ) : null}
+      */}
     </div>
   );
 };
