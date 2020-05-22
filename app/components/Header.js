@@ -48,7 +48,6 @@ const HomeHeader = () => {
         <div className="Home__Header__Content">
           <h1>React Rally in CYBERSPACE</h1>
           <h2>{CONF_DATES_DISPLAY}</h2>
-          <h2>Salt Lake City, UT</h2>
           <p>
             React Rally is a community conference about React and topics
             interesting to React developers. We focus on a friendly, welcoming
