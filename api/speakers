@@ -1,1 +1,26 @@
-{}
+{
+  "ryanflorence": {
+    "name": "Ryan Florence",
+    "title": "",
+    "avatar": "assets/dist/img/speakers/ryanflorence.jpg",
+    "twitter": "ryanflorence",
+    "github": "ryanflorence",
+    "featured": true
+  },
+  "mappletons": {
+    "name": "Maggie Appleton",
+    "title": "",
+    "avatar": "assets/dist/img/speakers/mappletons.jpg",
+    "twitter": "mappletons",
+    "github": "maggieappleton",
+    "featured": true
+  },
+  "therealjdash": {
+    "name": "Jay Johnson",
+    "title": "",
+    "avatar": "assets/dist/img/speakers/therealjdash.jpg",
+    "twitter": "therealjdash",
+    "github": "",
+    "featured": true
+  }
+}
