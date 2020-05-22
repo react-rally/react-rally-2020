@@ -10,10 +10,13 @@ import Countdown from 'components/Countdown';
 import Tickets from 'components/Tickets';
 import Icon from 'components/Icon';
 
-const CONF_DATES_DISPLAY =
-  moment.utc(constants.Dates.CONF_DAY_ONE).format('MMMM D') +
-  '-' +
-  moment.utc(constants.Dates.CONF_DAY_TWO).format('D, YYYY');
+const CONF_DATES_DISPLAY = constants.Dates.CONF_DAY_ONE === constants.Dates.CONF_DAY_TWO ?
+  moment.utc(constants.Dates.CONF_DAY_ONE).format('MMMM D, YYYY') :
+  (
+    moment.utc(constants.Dates.CONF_DAY_ONE).format('MMMM D') +
+    '-' +
+    moment.utc(constants.Dates.CONF_DAY_TWO).format('D, YYYY')
+  );
 
 const HomeHeader = () => {
   const isOpportunityScholarshipAvailable = moment
@@ -25,7 +28,7 @@ const HomeHeader = () => {
   const isConferenceLive = moment
     .utc()
     .isSameOrAfter(moment.utc(constants.Dates.CONF_DAY_ONE));
-  const isHotelAvailable = !isConferenceLive;
+  const isHotelAvailable = false; //!isConferenceLive;
   const isCFPOpen = moment
     .utc()
     .isBetween(
@@ -38,12 +41,12 @@ const HomeHeader = () => {
       <div className="Home__Header__Wrapper">
         <img
           src="assets/dist/img/ReactLogo.svg"
-          alt="React logo."
+          alt="React logo"
           width="100"
           height="100"
         />
         <div className="Home__Header__Content">
-          <h1>React Rally</h1>
+          <h1>React Rally in CYBERSPACE</h1>
           <h2>{CONF_DATES_DISPLAY}</h2>
           <h2>Salt Lake City, UT</h2>
           <p>
@@ -67,10 +70,8 @@ const HomeHeader = () => {
               />
             ) : (
               <span>
-                {/*
                 <Tickets />
                 &nbsp;&nbsp;&nbsp;&nbsp;
-                */}
                 {isCFPOpen && (
                   <span>
                     <Button

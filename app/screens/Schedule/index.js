@@ -125,6 +125,8 @@ export default class extends React.Component {
   }
 
   render() {
+    return <div className="Schedule"><section className="highlight">Coming soon!</section></div>;
+
     let selectedDay =
       this.state.selectedDay === 'dayOne'
         ? CONF_DAY_ONE_DATE

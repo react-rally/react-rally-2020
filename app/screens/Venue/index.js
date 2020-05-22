@@ -4,6 +4,8 @@ import constants from 'helpers/constants';
 import Button from 'components/Button';
 
 export default () => {
+  return <div className="Venue"><section className="highlight">CYBERSPACE!</section></div>;
+
   return (
     <div className="Venue">
       <section>
