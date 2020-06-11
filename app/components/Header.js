@@ -209,6 +209,9 @@ export default class Header extends Component {
           Header__Home: isHomeScreen,
           'Header--menuOpen': isMenuOpen,
         })}>
+        <div className="BlackLivesMatter__Banner">
+          <Link to="/blm">Black Lives Matter</Link>
+        </div>
         <Navigation
           onMenuClick={isOpen => {
             if (typeof isOpen === 'undefined') {
