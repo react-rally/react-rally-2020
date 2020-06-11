@@ -25,6 +25,7 @@ $size-font-default: 20px;
 $size-font-medium: 18px;
 $size-font-small: 14px;
 $size-font-xsmall: 12px;
+$banner-offset: 42px;
 
 /* typography */
 body {
@@ -127,6 +128,12 @@ input[type='email'] {
 /* layout */
 * {
   box-sizing: border-box;
+}
+
+#container.fullscreen {
+  .Header, .Footer {
+    display: none;
+  }
 }
 
 .col {
@@ -517,7 +524,7 @@ input[type='email'] {
   color: $color-red;
   position: absolute;
   height: 57px;
-  top: 17px;
+  top: 17px + $banner-offset;
   right: 25px;
 }
 .Header__Nav section:last-of-type {
@@ -697,10 +704,12 @@ section.Footer__Tickets h2 {
   border: 0 none;
   color: #ccc;
   padding: 0;
+  margin: 0;
 }
 .BlackLivesMatter section {
   max-width: 800px;
   margin: 0 auto;
+  padding: 25px !important;
 }
 
 /* -- Icon -- */

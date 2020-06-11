@@ -141,7 +141,7 @@ input[type='email'] {
 
       .Header__Nav__Menu {
         position: absolute;
-        top: 91px;
+        top: 91px + $banner-offset;
         left: 0;
         right: 0;
         height: 394px;
@@ -176,7 +176,7 @@ input[type='email'] {
           margin: 0;
           text-align: center;
           position: absolute;
-          top: -369px;
+          top: -369px + $banner-offset;
           left: 25px;
         }
       }

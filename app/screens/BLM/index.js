@@ -1,6 +1,14 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
 export default () => {
+  useEffect(() => {
+    const container = document.getElementById('container');
+
+    container.classList.add('fullscreen');
+
+    return () => container.classList.remove('fullscreen');
+  }, [])
+
   return (
     <div className="BlackLivesMatter">
       <section>
