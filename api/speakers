@@ -22,5 +22,13 @@
     "twitter": "therealjdash",
     "github": "",
     "featured": true
+  },
+  "kentcdodds": {
+    "name": "Kent C. Dodds",
+    "title": "",
+    "avatar": "assets/dist/img/speakers/kentcdodds.jpg",
+    "twitter": "kentcdodds",
+    "github": "kentcdodds",
+    "featured": true
   }
 }
