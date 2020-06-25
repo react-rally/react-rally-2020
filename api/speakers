@@ -30,5 +30,13 @@
     "twitter": "kentcdodds",
     "github": "kentcdodds",
     "featured": true
+  },
+  "taeluralexis": {
+    "name": "Tae'lur Alexis",
+    "title": "",
+    "avatar": "assets/dist/img/speakers/taeluralexis.jpg",
+    "twitter": "taeluralexis",
+    "github": "cyberbarbie",
+    "featured": true
   }
 }
