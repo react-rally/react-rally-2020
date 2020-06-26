@@ -38,5 +38,21 @@
     "twitter": "taeluralexis",
     "github": "cyberbarbie",
     "featured": true
+  },
+  "waterproofheart": {
+    "name": "Monica Powell",
+    "title": "software engineer, content creator & community organizer",
+    "avatar": "assets/dist/img/speakers/waterproofheart.jpg",
+    "twitter": "waterproofheart",
+    "github": "m0nica",
+    "featured": true
+  },
+  "jemyoung": {
+    "name": "Jem Young",
+    "title": "Infrastructure at Netflix",
+    "avatar": "assets/dist/img/speakers/jemyoung.png",
+    "twitter": "jemyoung",
+    "github": "young",
+    "featured": true
   }
 }
