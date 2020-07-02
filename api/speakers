@@ -54,5 +54,13 @@
     "twitter": "jemyoung",
     "github": "young",
     "featured": true
+  },
+  "ThugDebugger": {
+    "name": "Justin E. Samuels",
+    "title": "",
+    "avatar": "assets/dist/img/speakers/ThugDebugger.jpg",
+    "twitter": "ThugDebugger",
+    "github": "ThugDebugger",
+    "featured": true
   }
 }
