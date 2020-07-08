@@ -682,12 +682,12 @@ section.Footer__Tickets h2 {
 
 /* -- Black Lives Matter -- */
 .BlackLivesMatter__Banner {
-  background: #222;
+  background: $color-primary;
   text-align: center;
   padding: 10px;
 }
 .BlackLivesMatter__Banner a {
-  color: #ccc;
+  color: $color-grayLight;
 }
 
 .BlackLivesMatter {
@@ -696,13 +696,13 @@ section.Footer__Tickets h2 {
   right: 0;
   bottom: 0;
   left: 0;
-  background: #222;
-  color: #ccc;
+  background: $color-primary;
+  color: $color-grayLight;
   overflow: auto;
 }
 .BlackLivesMatter h1 {
   border: 0 none;
-  color: #ccc;
+  color: $color-grayLight;
   padding: 0;
   margin: 0;
 }
@@ -710,6 +710,30 @@ section.Footer__Tickets h2 {
   max-width: 800px;
   margin: 0 auto;
   padding: 25px !important;
+}
+
+/* -- Features -- */
+.Features {
+  width: 100%;
+  border-collapse: collapse;
+}
+.Features th {
+  padding-bottom: 25px;
+}
+.Features th div {
+  color: $color-tealLight;
+}
+.Features td {
+  padding: 10px 0;
+  border-bottom: 1px solid $color-grayLight;
+}
+.Features td:first-child {
+  font-size: 0.8em;
+}
+.Features td:not(:first-child) {
+  text-align: center;
+  width: 100px;
+  color: $color-tealLight;
 }
 
 /* -- Icon -- */

@@ -1,6 +1,7 @@
 import React from 'react';
 import constants from 'helpers/constants';
 import Button from 'components/Button';
+import Features from 'components/Features';
 import SponsorData from '../../../api/sponsors';
 
 export default () => {
@@ -18,6 +19,11 @@ export default () => {
         </Button>
         &nbsp;&nbsp;&nbsp;&nbsp;
         <Button href={constants.Links.EMAIL_ORGANIZERS}>Get in Touch</Button>
+      </section>
+
+      <section>
+        <h2>Sponsor Levels</h2>
+        <Features featureSet={constants.FeatureSets.Sponsors} />
       </section>
 
       {Object.keys(SponsorData)

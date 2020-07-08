@@ -36,3 +36,20 @@ constants.Dates = {
   OPPORTUNITY_SCHOLARSHIP_OPEN: '2020-01-01T06:00:00-00:00',
   OPPORTUNITY_SCHOLARSHIP_CLOSE: '2020-01-01T06:00:00-00:00',
 };
+
+constants.FeatureSets = {};
+constants.FeatureSets.Sponsors = {
+  features: [
+    { id: 0, name: 'Logo on conference website' },
+    { id: 1, name: 'Logo on slide between talks' },
+    { id: 2, name: 'Personal channel to chat with attendees' },
+    { id: 3, name: 'Digital swag sent to attendees' },
+    { id: 4, name: 'Commercial spot shown during breaks' },
+    { id: 5, name: 'Sponsor a break' }
+  ],
+  levels: [
+    { name: 'Silver', price: 3000, features: [0, 1] },
+    { name: 'Gold', price: 5000, features: [0, 1, 2, 3, 4] },
+    { name: 'Platinum', price: 7500, features: [0, 1, 2, 3, 4, 5] }
+  ]
+};
