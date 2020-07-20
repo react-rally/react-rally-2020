@@ -1,10 +1,10 @@
 {
-  "ryanflorence": {
-    "name": "Ryan Florence",
+  "swyx": {
+    "name": "Shawn Wang",
     "title": "",
-    "avatar": "assets/dist/img/speakers/ryanflorence.jpg",
-    "twitter": "ryanflorence",
-    "github": "ryanflorence",
+    "avatar": "assets/dist/img/speakers/swyx.jpg",
+    "twitter": "swyx",
+    "github": "swyx",
     "featured": true
   },
   "mappletons": {
