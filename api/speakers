@@ -15,14 +15,6 @@
     "github": "maggieappleton",
     "featured": true
   },
-  "therealjdash": {
-    "name": "Jay Johnson",
-    "title": "Front End Architect at Everlywell",
-    "avatar": "assets/dist/img/speakers/therealjdash.jpg",
-    "twitter": "therealjdash",
-    "github": "",
-    "featured": true
-  },
   "kentcdodds": {
     "name": "Kent C. Dodds",
     "title": "",
@@ -61,6 +53,22 @@
     "avatar": "assets/dist/img/speakers/ThugDebugger.jpg",
     "twitter": "ThugDebugger",
     "github": "ThugDebugger",
+    "featured": true
+  },
+  "techgirl1908": {
+    "name": "Angie Jones",
+    "title": "",
+    "avatar": "assets/dist/img/speakers/techgirl1908.jpg",
+    "twitter": "techgirl1908",
+    "github": "angiejones",
+    "featured": true
+  },
+  "amesimmons": {
+    "name": "Amy Simmons",
+    "title": "Software Engineer at Twitter",
+    "avatar": "assets/dist/img/speakers/amesimmons.jpg",
+    "twitter": "amesimmons",
+    "github": "amysimmons",
     "featured": true
   }
 }
