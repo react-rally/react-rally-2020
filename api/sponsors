@@ -1,7 +1,31 @@
 {
-  "Premier": [],
-  "Platinum": [],
-  "Gold": [],
-  "Silver": [],
-  "Supporters": []
+  "Platinum": [
+    {
+      "name": "Formidable",
+      "url": "https://formidable.com/",
+      "image": "assets/dist/img/sponsors/formidable.png",
+      "style": { "width": "215px" }
+    },
+    {
+      "name": "Rangle.io",
+      "url": "http://rangle.io/",
+      "image": "assets/dist/img/sponsors/rangle.png",
+      "style": { "width": "215px" }
+    }
+  ],
+  "Gold": [
+    {
+      "name": "Progress",
+      "url": "https://www.telerik.com/kendo-react-ui/?utm_medium=referral&utm_source=reactrally20&utm_campaign=kendo-ui-react-event-reactrally2020",
+      "image": "assets/dist/img/sponsors/progress.png",
+      "style": { "width": "175px" }
+    },
+    {
+      "name": "Ionic",
+      "url": "https://ionicframework.com/?utm_campaign=React%20Rally%202020&utm_source=React%20Rally%202020&utm_medium=referral",
+      "image": "assets/dist/img/sponsors/ionic.png",
+      "style": { "width": "175px" }
+    }
+  ],
+  "Silver": []
 }

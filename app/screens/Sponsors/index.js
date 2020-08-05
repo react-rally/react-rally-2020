@@ -21,11 +21,6 @@ export default () => {
         <Button href={constants.Links.EMAIL_ORGANIZERS}>Get in Touch</Button>
       </section>
 
-      <section>
-        <h2>Sponsor Levels</h2>
-        <Features featureSet={constants.FeatureSets.Sponsors} />
-      </section>
-
       {Object.keys(SponsorData)
         .filter(level => SponsorData[level].length > 0)
         .map(level => {
@@ -56,6 +51,11 @@ export default () => {
             </section>
           );
         })}
+
+      <section>
+        <h2>Sponsor Levels</h2>
+        <Features featureSet={constants.FeatureSets.Sponsors} />
+      </section>
     </div>
   );
 };

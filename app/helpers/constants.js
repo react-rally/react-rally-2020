@@ -49,7 +49,7 @@ constants.FeatureSets.Sponsors = {
   ],
   levels: [
     { name: 'Silver', price: 3000, features: [0, 1] },
-    { name: 'Gold', price: 5000, features: [0, 1, 2, 3, 4] },
+    { name: 'Gold', price: 5000, features: [0, 1, 2, 3] },
     { name: 'Platinum', price: 7500, features: [0, 1, 2, 3, 4, 5] }
   ]
 };
