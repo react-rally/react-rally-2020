@@ -1,188 +1,98 @@
 {
   "dayOne": [
     {
-      "time": "7:00 am",
-      "title": "Registration"
-    },
-    {
-      "time": "7:30 am",
-      "title": "Breakfast"
+      "time": "8:30 am",
+      "title": "Meditation and Chair Yoga"
     },
     {
       "time": "9:00 am",
-      "title": "",
-      "speaker": "",
+      "title": "Opening Remarks"
+    },
+    {
+      "time": "9:15 am",
+      "title": "The Cultural Anthropology of React",
+      "speaker": "mappletons",
       "description": ""
     },
     {
-      "time": "9:30 am",
-      "title": "",
-      "speaker": "",
+      "time": "9:45 am",
+      "title": "Growing a Meta-Language",
+      "speaker": "swyx",
       "description": ""
     },
     {
-      "time": "10:00 am",
-      "title": "Break"
+      "time": "10:20 am",
+      "title": "Coffee Break sponsored by Rangle.io"
     },
     {
       "time": "10:30 am",
-      "title": "",
-      "speaker": "",
+      "title": "Keeping Static Site Rendering Cool with React Hydration",
+      "speaker": "waterproofheart",
       "description": ""
     },
     {
       "time": "11:00 am",
-      "title": "",
-      "speaker": "",
+      "title": "Managing State Management",
+      "speaker": "kentcdodds",
       "description": ""
     },
     {
       "time": "11:30 am",
-      "title": "",
-      "speaker": "",
+      "title": "Origami Break"
+    },
+    {
+      "time": "11:40",
+      "title": "TBA",
+      "speaker": "techgirl1908",
       "description": ""
     },
     {
-      "time": "12:00 pm",
+      "time": "12:20",
+      "title": "Speaker Panel"
+    },
+    {
+      "time": "12:50 pm",
       "title": "Lunch"
     },
     {
-      "time": "2:00 pm",
-      "title": "",
-      "speaker": "",
-      "description": ""
-    },
-    {
-      "time": "2:30 pm",
-      "title": "",
-      "speaker": "",
-      "description": ""
-    },
-    {
-      "time": "3:00 pm",
-      "title": "Break"
-    },
-    {
-      "time": "3:30 pm",
-      "title": "",
-      "speaker": "",
-      "description": ""
-    },
-    {
-      "time": "4:00 pm",
-      "title": "",
-      "speaker": "",
-      "description": ""
-    },
-    {
-      "time": "4:30 pm",
-      "title": "",
-      "speaker": "",
-      "description": ""
-    },
-    {
-      "time": "5:00 pm",
-      "title": "",
-      "speaker": "",
-      "description": ""
-    },
-
-    {
-      "time": "6:00 pm",
-      "title": "Dinner",
-      "description": "Meet up with conference attendees sharing similar taste in cuisine at pre-arranged restaurants for dinner (self pay)."
-    },
-    {
-      "time": "8:00 pm",
-      "title": "Party",
-      "description": "Meet at Sheraton Ballroom for milkshakes and board games or Zion (where breakfast is served) for karaoke."
-    }
-  ],
-  "dayTwo": [
-    {
-      "time": "7:30 am",
-      "title": "Breakfast"
-    },
-    {
-      "time": "8:00 am",
-      "title": "Registration"
-    },
-    {
-      "time": "9:00 am",
-      "title": "",
-      "speaker": "",
-      "description": ""
-    },
-    {
-      "time": "9:30 am",
-      "title": "",
-      "speaker": "",
-      "description": ""
-    },
-    {
-      "time": "10:00 am",
-      "title": "Break"
-    },
-    {
-      "time": "10:30 am",
-      "title": "",
-      "speaker": "",
-      "description": ""
-    },
-    {
-      "time": "11:00 am",
-      "title": "",
-      "speaker": "",
-      "description": ""
-    },
-    {
-      "time": "11:30 am",
-      "title": "",
-      "speaker": "",
-      "description": ""
-    },
-    {
-      "time": "12:00 pm",
-      "title": "Lunch"
+      "time": "1:05",
+      "title": "Lunch Break sponsored by Formidable"
     },
     {
       "time": "2:00 pm",
-      "title": "",
-      "speaker": "",
+      "title": "TBA",
+      "speaker": "taeluralexis",
       "description": ""
     },
     {
-      "time": "2:30 pm",
-      "title": "",
-      "speaker": "",
+      "time": "2:20 pm",
+      "title": "Why Interviewing is Terrible",
+      "speaker": "jemyoung",
       "description": ""
     },
     {
-      "time": "3:00 pm",
-      "title": "Break"
+      "time": "2:50 pm",
+      "title": "Aerobics Movement Break"
     },
     {
-      "time": "4:00 pm",
-      "title": "",
-      "speaker": "",
+      "time": "3:10 pm",
+      "title": "TBA",
+      "speaker": "ThugDebugger",
       "description": ""
+    },
+    {
+      "time": "3:40 pm",
+      "title": "Building a feature on twitter.com",
+      "speaker": "amesimmons",
+      "description": ""
+    },
+    {
+      "time": "4:10 pm",
+      "title": "Speaker Panel"
     },
     {
       "time": "4:30 pm",
-      "title": "",
-      "speaker": "",
-      "description": ""
-    },
-    {
-      "time": "5:00 pm",
-      "title": "",
-      "speaker": "",
-      "description": ""
-    },
-    {
-      "time": "6:30 pm",
-      "title": "Party",
-      "description": "Meet at the Gateway for dinner, dessert, live music, and lawn games."
+      "title": "Closing Remarks"
     }
   ]
 }

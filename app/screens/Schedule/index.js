@@ -57,9 +57,7 @@ export default class extends React.Component {
     this.state = {
       // Default showing day two schedule if day two is today
       // TODO this isn't working since switching to moment
-      selectedDay: moment.utc().isSame(CONF_DAY_TWO_DATE, 'day')
-        ? 'dayTwo'
-        : 'dayOne',
+      selectedDay: 'dayOne'
     };
   }
 
@@ -101,43 +99,14 @@ export default class extends React.Component {
     }
   }
 
-  renderMenu() {
-    return (
-      <menu className="Schedule__Menu">
-        <a
-          href="javascript://"
-          onClick={this.handleMenuItemClick.bind(this, 'dayOne')}
-          className={cx('Schedule__Menu__Item', {
-            'Schedule__Menu__Item--active': this.state.selectedDay === 'dayOne',
-          })}>
-          {CONF_DAY_ONE_DATE.format('dddd, MMMM D')}
-        </a>
-        <a
-          href="javascript://"
-          onClick={this.handleMenuItemClick.bind(this, 'dayTwo')}
-          className={cx('Schedule__Menu__Item', {
-            'Schedule__Menu__Item--active': this.state.selectedDay === 'dayTwo',
-          })}>
-          {CONF_DAY_TWO_DATE.format('dddd, MMMM D')}
-        </a>
-      </menu>
-    );
-  }
-
   render() {
-    return <div className="Schedule"><section className="highlight">Coming soon!</section></div>;
-
-    let selectedDay =
-      this.state.selectedDay === 'dayOne'
-        ? CONF_DAY_ONE_DATE
-        : CONF_DAY_TWO_DATE;
+    let selectedDay = CONF_DAY_ONE_DATE;
     let schedule = ScheduleData[this.state.selectedDay];
 
     return (
       <div className="Schedule">
         {schedule.length > 0 ? (
           <div>
-            {this.renderMenu()}
             {schedule.map((session, i) => {
               let speaker = session.speaker
                 ? SpeakerData[session.speaker]
@@ -182,7 +151,6 @@ export default class extends React.Component {
                 </div>
               );
             })}
-            {this.renderMenu()}
           </div>
         ) : (
           <div className="align-center">
