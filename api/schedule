@@ -21,7 +21,7 @@
       "description": ""
     },
     {
-      "time": "10:20 am",
+      "time": "10:15 am",
       "title": "Coffee Break sponsored by Rangle.io"
     },
     {
@@ -31,61 +31,61 @@
       "description": ""
     },
     {
-      "time": "11:00 am",
+      "time": "10:55 am",
+      "title": "Origami Break"
+    },
+    {
+      "time": "11:05 am",
+      "title": "Your Tests Lack Vision: Adding Eyes to Your Automation Framework",
+      "speaker": "techgirl1908",
+      "description": ""
+    },
+    {
+      "time": "11:45 am",
+      "title": "Speaker Panel"
+    },
+    {
+      "time": "12:15 pm",
+      "title": "Lunch"
+    },
+    {
+      "time": "12:30 pm",
+      "title": "Lunch Break sponsored by Formidable"
+    },
+    {
+      "time": "1:20 pm",
       "title": "Managing State Management",
       "speaker": "kentcdodds",
       "description": ""
     },
     {
-      "time": "11:30 am",
-      "title": "Origami Break"
-    },
-    {
-      "time": "11:40",
-      "title": "TBA",
-      "speaker": "techgirl1908",
-      "description": ""
-    },
-    {
-      "time": "12:20",
-      "title": "Speaker Panel"
-    },
-    {
-      "time": "12:50 pm",
-      "title": "Lunch"
-    },
-    {
-      "time": "1:05",
-      "title": "Lunch Break sponsored by Formidable"
-    },
-    {
-      "time": "2:20 pm",
+      "time": "1:50 pm",
       "title": "Why Interviewing is Terrible",
       "speaker": "jemyoung",
       "description": ""
     },
     {
-      "time": "2:50 pm",
+      "time": "2:20 pm",
       "title": "Aerobics Movement Break"
     },
     {
-      "time": "3:10 pm",
-      "title": "TBA",
-      "speaker": "ThugDebugger",
-      "description": ""
-    },
-    {
-      "time": "3:40 pm",
-      "title": "Building a feature on twitter.com",
+      "time": "2:35 pm",
+      "title": "Look what you made me do: Building a feature on Twitter.com",
       "speaker": "amesimmons",
       "description": ""
     },
     {
-      "time": "4:10 pm",
+      "time": "3:00 pm",
+      "title": "Rebuild Black Business - Why we can’t wait ",
+      "speaker": "ThugDebugger",
+      "description": ""
+    },
+    {
+      "time": "3:30 pm",
       "title": "Speaker Panel"
     },
     {
-      "time": "4:30 pm",
+      "time": "4:00 pm",
       "title": "Closing Remarks"
     }
   ]
