@@ -105,7 +105,7 @@ export default class extends React.Component {
 
     return (
       <div className="Schedule">
-        <section className="highlight">Times are Mountain Standard Time.</section>
+        <section className="highlight">All times are Mountain Time.</section>
 
         {schedule.length > 0 ? (
           <div>
