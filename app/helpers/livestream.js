@@ -8,7 +8,7 @@ function getLiveStreamURL() {
 
   if (moment.utc().isBefore(moment.utc(constants.Dates.CONF_DAY_ONE))) {
     url = constants.Links.LIVE_STREAM_PLACEHOLDER
-  } else if (isNowBetween(constants.Dates.CONF_DAY_ONE, constants.Dates.CONF_DAY_TWO)) {
+  } else if (moment.utc().isSame(constants.Dates.CONF_DAY_ONE, 'day')) {
     url = constants.Links.LIVE_STREAM_DAY_ONE
   } else {
     url = constants.Links.LIVE_STREAM_OVER
