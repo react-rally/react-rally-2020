@@ -71,6 +71,7 @@ section h1 {
 button,
 input[type='text'],
 input[type='email'] {
+  border-radius: 5px;
   font-family: 'Rubik', sans-serif;
   font-size: $size-font-medium;
   padding: 5px 10px;
@@ -504,6 +505,7 @@ input[type='email'] {
 }
 .Content section.highlight {
   background-color: $color-grayLightest;
+  border-radius: 10px;
 }
 .Content section.highlight .Button,
 .Content section.highlight button {
@@ -661,6 +663,7 @@ input[type='email'] {
 }
 section.Footer__Tickets {
   background-color: $color-white;
+  border-radius: 10px;
   padding: 50px;
   text-align: center;
   display: inline-block;
