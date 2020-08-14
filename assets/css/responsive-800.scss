@@ -33,12 +33,15 @@ input[type='email'] {
     h2 {
       font-size: $size-font-large;
     }
+    h1,
+    h2 {
+      margin-left: 60px;
+    }
   }
-  .Home__Header__Wrapper img {
+  .Home__Header__Wrapper .Home__Header__Logo {
     position: absolute;
-    top: 20px;
-    left: 25px;
-    width: 50px;
+    top: 60px;
+    left: 22px;
     height: 50px;
   }
   .Home__Header__Content {
@@ -84,6 +87,10 @@ input[type='email'] {
     section:first-of-type {
       height: 0;
     }
+
+    &.Header--menuOpen {
+      background: $color-black;
+    }
   }
   &.Header--menuOpen {
     position: fixed;
@@ -99,6 +106,7 @@ input[type='email'] {
       left: 0;
     }
 
+    .Home__Header__Logo,
     .Home__Header__Content {
       display: none;
     }

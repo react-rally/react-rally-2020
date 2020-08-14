@@ -6,10 +6,11 @@ $color-grayLight: #dcdcdc;
 $color-gray: #999999;
 $color-grayDark: #777777;
 $color-grayDarkest: #444444;
-$color-red: #e0000a;
+$color-black: #000000;
+$color-red: #dd4b53;
 $color-redDark: #c20000;
 $color-tealLight: #008997;
-$color-teal: #006164;
+$color-teal: #36a5a8;
 $color-tealDark: #005659;
 
 /* legacy colors */
@@ -78,6 +79,7 @@ input[type='email'] {
 .Button,
 button {
   border: 0 none;
+  border-radius: 5px;
   background-color: $color-white;
   color: $color-red;
   cursor: pointer;
@@ -215,7 +217,7 @@ input[type='email'] {
   padding: 0;
 }
 .Home__Header__Wrapper {
-  color: $color-white;
+  color: $color-black;
   padding: 50px;
   padding-bottom: 100px;
   display: grid;
@@ -223,7 +225,7 @@ input[type='email'] {
 }
 .Home__Header__Wrapper h1,
 .Home__Header__Wrapper h2 {
-  color: $color-white;
+  color: $color-black;
   padding-left: 0;
 }
 .Home__Header__Wrapper h1 {
@@ -250,11 +252,15 @@ input[type='email'] {
 .Home__Header__Wrapper button.primary:hover {
   background-color: $color-tealDark;
 }
+.Home__Header__Logo {
+  height: 100px;
+  transform: translate(-25%, 150%) rotate(270deg);
+}
 .Home__Header__Content {
-  border-left: 4px solid #01666b;
+  border-left: 4px solid $color-black;
   padding-left: 25px;
   margin-left: 25px;
-  width: 850px;
+  width: 525px;
   z-index: 100;
 }
 .Home__Header__Content h1,
@@ -263,6 +269,9 @@ input[type='email'] {
 }
 .Home__Header .Button {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.Home__Header__Buttons .Button.primary {
+  background: $color-red;
 }
 
 .Home__UpcomingDate {
@@ -510,8 +519,16 @@ input[type='email'] {
   background-color: $color-teal;
 }
 .Header__Home {
-  background: url(../dist/img/TimpanogosHeader.png) no-repeat center -100px fixed;
+  background: url(../dist/img/Hero.png) no-repeat center 0 fixed;
   background-size: cover;
+}
+.Header__Home .Header__Nav {
+  background-color: $color-black;
+}
+.Header__Home .Header__Nav a.Button {
+  border: 1px solid $color-white;
+  background: $color-black;
+  color: $color-white !important;
 }
 .Header__Home .Header__Nav ul {
   margin-left: 0;
@@ -523,6 +540,7 @@ input[type='email'] {
   display: grid;
   grid-template-columns: 800px auto;
   padding: 25px;
+  padding-bottom: 15px;
 }
 .Header__Nav button.Header__Nav__Button {
   display: none;

@@ -40,10 +40,9 @@ const HomeHeader = () => {
     <div className="Home__Header">
       <div className="Home__Header__Wrapper">
         <img
-          src="assets/dist/img/ReactLogo.svg"
-          alt="React logo"
-          width="100"
-          height="100"
+          src="assets/dist/img/ReactRallyLogo.png"
+          alt="React Rally logo"
+          className="Home__Header__Logo"
         />
         <div className="Home__Header__Content">
           <h1>React Rally in CYBERSPACE</h1>
@@ -56,7 +55,7 @@ const HomeHeader = () => {
           </p>
           <div className="Home__Header__Buttons">
             {isConferenceLive ? (
-              <Link to="/stream" className="Button large">
+              <Link to="/stream" className="Button primary large">
                 Watch Live Stream
               </Link>
             ) : false ? (
