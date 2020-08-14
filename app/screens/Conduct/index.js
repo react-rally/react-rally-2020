@@ -20,16 +20,12 @@ export default () => {
         <br />
         <Button
           className="primary"
-          onClick={() => {
-            document.getElementById('report').scrollIntoView({
-              block: 'start',
-              behavior: 'smooth',
-            });
-          }}>
+          href={constants.Links.REPORT_COC_VIOLATION_FORM}
+        >
           Report an Incident
         </Button>
         &nbsp;&nbsp;&nbsp;&nbsp;
-        <Button href={constants.Links.EMAIL_ORGANIZERS}>
+        <Button href={`mailto:${constants.Links.EMAIL_ORGANIZERS}`}>
           Contact an Organizer
         </Button>
       </section>
@@ -109,10 +105,16 @@ export default () => {
           experience, The Code of Conduct helps us achieve this by offering
           people a safe, welcoming environment. If you witness or experience a
           violation of the Code of Conduct please report it immediately. You can
-          report violations by emailing us at{' '}
-            <a href="mailto:team@reactrally.com?subject=Code of Conduct Violation">
-              team@reactrally.com
-            </a>.
+          report violations by:
+
+          <ul>
+            <li>Submit a Code of Conduct <a href="{constants.Links.REPORT_COC_VIOLATION_FORM}" target="_blank">incident report</a>.</li>
+            <li>Email the organizer team at {' '}
+              <a href={`mailto:${constants.Links.EMAIL_ORGANIZERS}?subject=Code+of+Conduct+Violation`}>
+                {constants.Links.EMAIL_ORGANIZERS}
+              </a>.
+            </li>
+          </ul>
       </p>
       </section>
     </div>

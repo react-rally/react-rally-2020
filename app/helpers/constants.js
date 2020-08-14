@@ -4,7 +4,7 @@ export default constants;
 constants.Links = {
   CODE_OF_CONDUCT: 'http://confcodeofconduct.com/',
   CODE_OF_CONDUCT_FORM: '',
-  EMAIL_ORGANIZERS: 'mailto:team@reactrally.com',
+  EMAIL_ORGANIZERS: 'team@reactrally.com',
   TICKET_SALES: 'https://ti.to/trace-events/react-rally-2020',
   PROPOSAL_FORM: 'http://speak.reactrally.com/events/react-rally-2020',
   HOTEL_RESERVATION:
@@ -18,7 +18,8 @@ constants.Links = {
     'https://www.youtube.com/playlist?list=PLUD4kD-wL_zYSfU3tIYsb4WqfFQzO_EjQ',
   SPONSOR_PROSPECTUS: 'docs/sponsor.pdf',
   OPPORTUNITY_SCHOLARSHIP_FORM:
-    'https://docs.google.com/forms/d/e/1FAIpQLSevXCteBpBysq8afjuHQuFL4sx3OUv3o2iIciQ6sMCfCk12uw/viewform?usp=sf_link',
+    'https://docs.google.com/forms/d/e/1FAIpQLSevXCteBpBysq8afjuHQuFL4sx3OUv3o2iIciQ6sMCfCk12uw/viewform',
+  REPORT_COC_VIOLATION_FORM: 'https://docs.google.com/forms/d/e/1FAIpQLScghazbFL90gtVbWjlE2BxwXGuV-S1IIXGyXqeU9lyLAA7NmQ/viewform',
 };
 
 constants.Prices = {

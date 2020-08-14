@@ -18,7 +18,7 @@ export default () => {
           Download Prospectus
         </Button>
         &nbsp;&nbsp;&nbsp;&nbsp;
-        <Button href={constants.Links.EMAIL_ORGANIZERS}>Get in Touch</Button>
+        <Button href={`mailto:${constants.Links.EMAIL_ORGANIZERS}`}>Get in Touch</Button>
       </section>
 
       {Object.keys(SponsorData)
