@@ -178,6 +178,7 @@ const Navigation = ({onMenuClick = () => {}}) => {
         <Icon href="https://twitter.com/ReactRally" type="twitter" />
         <Icon href="https://github.com/react-rally" type="github" />
         <Icon href="https://instagram.com/reactrally" type="instagram" />
+        <Icon href="https://www.youtube.com/channel/UCXBhQ05nu3L1abBUGeQ0ahw" type="youtube" />
         <Button href={constants.Links.TICKET_SALES} className="medium">
           Tickets
         </Button>

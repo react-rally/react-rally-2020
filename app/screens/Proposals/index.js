@@ -27,7 +27,7 @@ export default () => {
         <li>Learning React as a junior developer</li>
       </ul>
       <p>Of course if you have another talk you'd like to submit, we'd love to see that too.</p>
-      <p>If you would like to discuss your proposal, get some feedback, or brainstorm an idea, feel free to ask <a href="mailto:team@reactrally.com">team@reactrally.com</a>.</p>
+      <p>If you would like to discuss your proposal, get some feedback, or brainstorm an idea, feel free to ask <a href={`mailto:${constants.Links.EMAIL_ORGANIZERS}`}>{constants.Links.EMAIL_ORGANIZERS}</a>.</p>
     </div>
   )
 }
