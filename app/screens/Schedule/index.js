@@ -9,32 +9,27 @@ import ScheduleData from '../../../api/schedule';
 import SpeakerData from '../../../api/speakers';
 
 const CONF_DAY_ONE_DATE = moment.utc(constants.Dates.CONF_DAY_ONE);
-const CONF_DAY_TWO_DATE = moment.utc(constants.Dates.CONF_DAY_TWO);
 
 function parseTimeString(str) {
-  let time = 0;
-  let [hour, extra] = str.split(':');
-  let [min, period] = extra.split(' ');
+  if (!str) return [];
 
-  time = parseInt(hour, 10);
-  time += parseInt(min, 10) === 30 ? 0.5 : 0;
+  const parts = str.match(/(\d+)\:(\d+) (am|pm)/i);
+  let hours = parseInt(parts[1], 10);
+  const minutes = parseInt(parts[2], 10);
+  const period = parts[3];
 
-  if (period.toLowerCase() === 'pm' && time !== 12) {
-    time += 12;
+  // Convert to 24 hour time
+  if (period.toLowerCase() === 'pm' && hours !== 12) {
+    hours += 12;
   }
 
-  return time;
+  return [hours, minutes];
 }
 
 function isNowWithinTimeRange(date, startTime, endTime) {
   const OFFSET = 6;
-
-  let startParsed = parseTimeString(startTime);
-  let startHour = Math.floor(startParsed);
-  let startMinute = Math.round(startParsed) > startHour ? 30 : 0;
-  let endParsed = endTime ? parseTimeString(endTime) : null;
-  let endHour = endParsed && Math.floor(endParsed);
-  let endMinute = endParsed && Math.round(endParsed) > endHour ? 30 : 0;
+  const [startHour, startMinute] = parseTimeString(startTime);
+  const [endHour, endMinute] = parseTimeString(endTime);
 
   let start = moment
     .utc(date)
@@ -64,7 +59,7 @@ export default class extends React.Component {
   componentDidMount() {
     this.cancelInterval = scheduleInterval(
       this.forceUpdate.bind(this),
-      30 * DateUtils.MINUTES,
+      5 * DateUtils.MINUTES,
     );
     this.scrollToActiveSession();
   }
@@ -117,6 +112,7 @@ export default class extends React.Component {
               let isActive =
                 moment.utc().isSame(selectedDay, 'day') &&
                 isNowWithinTimeRange(selectedDay, session.time, sessionEnd);
+
               return (
                 <div
                   className={cx('Schedule__Session', {
