@@ -108,7 +108,7 @@ export default () => {
           report violations by:
 
           <ul>
-            <li>Submit a Code of Conduct <a href="{constants.Links.REPORT_COC_VIOLATION_FORM}" target="_blank">incident report</a>.</li>
+            <li>Submit a Code of Conduct <a href={constants.Links.REPORT_COC_VIOLATION_FORM} target="_blank">incident report</a>.</li>
             <li>Email the organizer team at {' '}
               <a href={`mailto:${constants.Links.EMAIL_ORGANIZERS}?subject=Code+of+Conduct+Violation`}>
                 {constants.Links.EMAIL_ORGANIZERS}
